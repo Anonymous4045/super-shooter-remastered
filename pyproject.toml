@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "super-shooter-remastered"
+version = "0.1.0"
+description = ""
+authors = ["Anonymous4045 <99518880+Anonymous4045@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "super_shooter_remastered"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
